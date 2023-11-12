@@ -32,7 +32,7 @@ module.exports = () => {
       new MiniCssExtractPlugin(),
       // InjectManifest plugin for workbox will generate a service worker file that precache and route requests
       new InjectManifest({
-        swSrc: './src-sw.js', // specify the source service worker file
+        swSrc: './src/js/src-sw.js', // specify the source service worker file
         swDest: 'src-sw.js', // Destination filename in the ouptput directory.
       }),
 
